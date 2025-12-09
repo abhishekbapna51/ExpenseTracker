@@ -27,6 +27,35 @@ Sorted by date (latest first).
 Exports to: .csv file
 
 ---
+## Project Structure
+```bash
+ExpenseTracker/
+│
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   ├── com/
+│   │   │   │   └── expensetracker/
+│   │   │   │       ├── App.java
+│   │   │   │       ├── model/
+│   │   │   │       │   ├── Category.java
+│   │   │   │       │   └── Expense.java
+│   │   │   │       ├── service/
+│   │   │   │       │   ├── ExpenseManager.java
+│   │   │   │       │   └── ReportService.java
+│   │   │   │       └── util/
+│   │   │   │           ├── DateUtils.java
+│   │   │   │           └── FileUtils.java
+│   │   └── resources/
+│   │       └── data/
+│   │           ├── expenses.csv
+│   │           └── reports/
+│   │               └── 2025-12-report.csv
+│
+└── README.md
+```
+
+---
 
 ## How to Run (VS Code Recommended)
 ### **Step 1: Clone the Project**
