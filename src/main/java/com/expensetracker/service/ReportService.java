@@ -22,10 +22,10 @@ public class ReportService {
         }
         System.out.println("Category summary for " + ym);
         for (Category c : Category.values()) {
-            System.out.printf("  %s : \u20B9%.2f%n", c.name(), map.getOrDefault(c, 0.0));
+            System.out.printf("  %s : Rs.%.2f%n", c.name(), map.getOrDefault(c, 0.0));
         }
         double total = map.values().stream().mapToDouble(Double::doubleValue).sum();
-        System.out.printf("  Total : \u20B9%.2f%n", total);
+        System.out.printf("  Total : Rs.%.2f%n", total);
     }
 
     public void exportMonthlyCSV(List<Expense> expenses, YearMonth ym) {
