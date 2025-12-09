@@ -1,0 +1,4 @@
+/out/
+/target/
+/*.jar
+ExpenseTracker/src/main/resources/logs/*
