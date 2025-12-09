@@ -67,7 +67,7 @@ public class Expense {
 
     @Override
     public String toString() {
-        return String.format("[%s] %s | \u20B9%.2f | %s | %s",
+        return String.format("[%s] %s | Rs.%.2f | %s | %s",
             id.substring(0, Math.min(8, id.length())),
             category.name(),
             amount,
