@@ -1,45 +1,50 @@
-# 📘 ExpenseTracker - Java Console Application
+# ExpenseTracker - Java Console Application
 
 A simple and lightweight **expense management system** built using **Core Java**.  
 This project records expenses, categorizes them, filters by month, and exports monthly reports as CSV files.
 
 ---
 
-## 🚀 Features
+## Features
 
-### ✔ Add Expenses
+### Add Expenses
 - Amount  
 - Category (Food, Travel, Shopping, Bills, Entertainment, Health, Other)  
 - Date  
 - Description  
 
-### ✔ View All Expenses
+### View All Expenses
 Sorted by date (latest first).
 
-### ✔ Filter by Month
+### Filter by Month
 - Enter month in `YYYY-MM`
 - Shows expenses + total monthly spending
 
-### ✔ Category-wise Summary
+### Category-wise Summary
 - Auto-calculates spending by category for selected month
 
-### ✔ Export Monthly CSV Report
+### Export Monthly CSV Report
 Exports to: .csv file
-
-
 
 ---
 
-## 🖥️ How to Run (VS Code Recommended)
+## How to Run (VS Code Recommended)
+### **Step 1: Clone the Project**
 
-### **1️⃣ Open the project**
+### **Step 2: Open VS Code Terminal**
+
+### **Step 3: Run**
+``` bash
+git clone https://github.com/abhishekbapna51/ExpenseTracker.git
+```
+### **Step 4: Open the project**
 File → Open Folder → select ExpenseTracker/
 
-### **2️⃣ Install Required Extensions**
+### **Step 5: Install Required Extensions**
 - Extension Pack for Java  
 - Debugger for Java  
 
-### **3️⃣ Run the App**
+### **Step 6: Run the App**
 Open:
 src/main/java/com/expensetracker/App.java
 
@@ -48,7 +53,7 @@ Click **Run ▶** or press **F5**.
 
 ---
 
-## 🏗️ Compile & Run from Terminal (Manual)
+## Compile & Run from Terminal (Manual)
 
 ### **Compile**
 ```bash
